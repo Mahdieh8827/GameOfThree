@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: game-of-three
+    ports:
+      - "8084:8083"
+      - "8085:8083"
+
+
+
+
