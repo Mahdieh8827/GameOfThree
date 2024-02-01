@@ -10,8 +10,7 @@ public class GameStatus {
     private GameStatusEnum status;
 
     private GameModeEnum gameMode;
-    public GameStatus() {
-    }
+
     public GameStatus(String lastPlayer, GameStatusEnum status, GameModeEnum gameMode) {
         this.lastPlayer = lastPlayer;
         this.status = status;
